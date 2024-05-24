@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    min-width: 10vw;
+    min-height: 5vh;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #222;
+    color: #fff;
+}
