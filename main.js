@@ -1,9 +1,9 @@
 const b = document.querySelector("button");
 const SHIFT = 2;
 
-window.addEventListener('mousemove', (e) => {
-    b.style.left = e.clientX + 15 + 'px';
-    b.style.top = e.clientY + 15 + 'px';
+b.addEventListener('mousemove', (e) => {
+    b.style.left = Math.random() * window.screen.width / 2 + 'px';
+    b.style.top = Math.random() * window.screen.height / 2 + 'px';
 });
 
 function genKey() {
@@ -19,6 +19,6 @@ function genKey() {
         }
         bit = (bit + 1) % 2;
     }
-    console.log(key);
-    return key;
+    alert("Check console for the key and here is the final message 'VNCV RUTQDW VFUP KS'")
+    console.log("Key: ", key);
 }
